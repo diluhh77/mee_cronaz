@@ -65,7 +65,7 @@ router.get('/', async (req, res) => {
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 𝐏𝐎𝐏𝐊𝐈𝐃 𝐏𝐑𝐎𝐉𝐄𝐂𝐓𝐒
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐏𝐀𝐆𝐄 = https://whatsapp.com/channel/0029VajJTJp2f3ELCm8FN50D
+𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐏𝐀𝐆𝐄 = https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄 𝐕𝐈𝐀
 𝐌𝐘 𝐋𝐈𝐍𝐊?https://wa.me/2544732297194?
