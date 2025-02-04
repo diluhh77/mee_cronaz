@@ -50,8 +50,7 @@ router.get('/', async (req, res) => {
                     lastDisconnect
                 } = s;
                 if (connection == "open") {
-                 await groupAcceptInvite("KDDCSC0xdIz6hiTxVFLvXg");
-                /*await delay(5000);*/
+                await delay(5000);
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
@@ -59,32 +58,21 @@ router.get('/', async (req, res) => {
 
                let GIFTED_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
-👻 𝗣𝗢𝗣𝗞𝗜𝗗 𝗠𝗗 𝗦𝗘𝗦𝗦𝗜𝗢𝗡𝗦
-🗿𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬
-🙂‍↕️𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗
+┃MUSTAFFA SESSIONS
+┃ARE
+┃CONNECTED💙🔵
 ┗━━━━━━━━━━━━━━━
-> ʏᴏᴜ ʜᴀᴠᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴛʜᴇ ғɪʀsᴛ sᴛᴇᴘ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴘᴏᴘᴋɪᴅ xᴛᴇᴄʜ ʙᴏᴛ. ᴄᴏᴘʏ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴍᴇssᴀɢᴇ ᴀɴᴅ ᴅᴇᴘʟᴏʏ ᴛʜᴇ ʙᴏᴛ ᴏɴ ʜᴇʀᴏᴋᴜ.
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-𝗙𝗢𝗟𝗟𝗢𝗪 𝗧𝗛𝗘𝗦𝗘 𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧 𝗟𝗜𝗡𝗞𝗦
+❶ || 𝐶𝑟𝑒𝑎𝑡𝑜𝑟 = POPKID
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❷ || YouTube Channel = https://youtube.com/@mustaffamk?si=uJQhZ5skOWwnT2oh
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+Please Follow My Support Channel https://whatsapp.com/channel/0029VawBbI40AgWKACOjdm1T
+Wanna talk? http://wa.me/254758755663?
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+©*MUSTAFFA KE*
 
-ғᴏʟʟᴏᴡ ᴏᴜʀ ᴏғғɪᴄɪᴀʟ ᴡᴀ-ᴄʜᴀɴɴᴇʟ 🌊
- [https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l] 
-
-ғᴏʟʟᴏᴡ ᴘᴏᴘᴋɪᴅ xʙᴏᴛ ɢɪᴛʜᴜʙ 💦
-[ https://github.com/Popkiddevs ] 
-
-ғᴏʀᴋ ᴀɴᴅ sᴛᴀʀ ᴍʏ ʀᴇᴘᴏ 🛜
-[ https://github.com/Popkiddevs/POPKID-XTECH ] 
-
-ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴏᴡɴᴇʀ ғᴏʀ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ🧑‍💻
- [ https://wa.me/254732297194 ] 
-
-ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ, ᴛᴀᴘ ᴛʜɪs ʟɪɴᴋ ᴛᴏ ᴅᴇᴘʟᴏʏ 
- [ https://dashboard.heroku.com/new?template=https://github.com/Popkiddevs/POPKID-XTECH ] 
- 
-
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐏𝐎𝐏𝐊𝐈𝐃 𝐗𝐓𝐄𝐂𝐇 𝐓𝐄𝐀𝐌 😇`
-
+_Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
 
